@@ -1,0 +1,29 @@
+{
+  "name": "M6-D10",
+  "version": "1.0.0",
+  "description": "BM Amazon API SQL",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node tables/createTables",
+    "dev": "nodemon -r  dotenv/config src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirelaekic/M6-D10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirelaekic/M6-D10/issues"
+  },
+  "homepage": "https://github.com/mirelaekic/M6-D10#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1"
+  }
+}
